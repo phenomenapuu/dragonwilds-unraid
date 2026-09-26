@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-26T00:00:00.000Z",
+  "title": "Design System: Dragonwilds Server Dashboard",
+  "extensions": {
+    "colorMeta": {
+      "ember": {
+        "role": "primary",
+        "displayName": "Ember",
+        "canonical": "#f2803c",
+        "lightMode": "#a8460f",
+        "tonalRamp": ["oklch(20% 0.06 48)", "oklch(31% 0.09 48)", "oklch(42% 0.12 48)", "oklch(53% 0.15 48)", "oklch(64% 0.17 48)", "oklch(72% 0.16 48)", "oklch(83% 0.10 48)", "oklch(94% 0.04 48)"]
+      },
+      "ember-ink": {
+        "role": "primary",
+        "displayName": "Ember Ink",
+        "canonical": "#1a0c04",
+        "lightMode": "#ffffff",
+        "tonalRamp": ["oklch(15% 0.03 48)", "oklch(26% 0.03 48)", "oklch(37% 0.03 48)", "oklch(48% 0.03 48)", "oklch(59% 0.03 48)", "oklch(70% 0.02 48)", "oklch(83% 0.015 48)", "oklch(95% 0.008 48)"]
+      },
+      "ok": {
+        "role": "secondary",
+        "displayName": "Signal Green",
+        "canonical": "#56c68a",
+        "lightMode": "#18794e",
+        "tonalRamp": ["oklch(20% 0.05 158)", "oklch(31% 0.08 158)", "oklch(42% 0.10 158)", "oklch(53% 0.12 158)", "oklch(64% 0.13 158)", "oklch(75% 0.12 158)", "oklch(85% 0.08 158)", "oklch(95% 0.03 158)"]
+      },
+      "warn": {
+        "role": "secondary",
+        "displayName": "Signal Amber",
+        "canonical": "#e3b341",
+        "lightMode": "#855a06",
+        "tonalRamp": ["oklch(20% 0.05 83)", "oklch(31% 0.07 83)", "oklch(42% 0.09 83)", "oklch(53% 0.11 83)", "oklch(64% 0.13 83)", "oklch(78% 0.14 83)", "oklch(87% 0.09 83)", "oklch(95% 0.04 83)"]
+      },
+      "bad": {
+        "role": "secondary",
+        "displayName": "Signal Coral",
+        "canonical": "#f06a6a",
+        "lightMode": "#a8291c",
+        "tonalRamp": ["oklch(20% 0.06 22)", "oklch(31% 0.09 22)", "oklch(42% 0.12 22)", "oklch(53% 0.15 22)", "oklch(64% 0.17 22)", "oklch(72% 0.15 22)", "oklch(84% 0.09 22)", "oklch(95% 0.03 22)"]
+      },
+      "ok-wash": {
+        "role": "secondary",
+        "displayName": "Green Wash",
+        "canonical": "color-mix(in srgb, #56c68a 12%, #14181d)",
+        "tonalRamp": ["oklch(18% 0.015 170)", "oklch(28% 0.02 170)", "oklch(38% 0.03 170)", "oklch(48% 0.035 170)", "oklch(58% 0.04 170)", "oklch(70% 0.035 170)", "oklch(82% 0.025 170)", "oklch(94% 0.012 170)"]
+      },
+      "warn-wash": {
+        "role": "secondary",
+        "displayName": "Amber Wash",
+        "canonical": "color-mix(in srgb, #e3b341 13%, #14181d)",
+        "tonalRamp": ["oklch(18% 0.015 83)", "oklch(28% 0.02 83)", "oklch(38% 0.03 83)", "oklch(48% 0.035 83)", "oklch(58% 0.04 83)", "oklch(70% 0.035 83)", "oklch(82% 0.025 83)", "oklch(94% 0.012 83)"]
+      },
+      "bad-wash": {
+        "role": "secondary",
+        "displayName": "Coral Wash",
+        "canonical": "color-mix(in srgb, #f06a6a 13%, #14181d)",
+        "tonalRamp": ["oklch(18% 0.015 22)", "oklch(28% 0.02 22)", "oklch(38% 0.03 22)", "oklch(48% 0.035 22)", "oklch(58% 0.04 22)", "oklch(70% 0.035 22)", "oklch(82% 0.025 22)", "oklch(94% 0.012 22)"]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Board",
+        "canonical": "#0b0d10",
+        "lightMode": "#f4f2ef",
+        "tonalRamp": ["oklch(15% 0.008 250)", "oklch(26% 0.008 250)", "oklch(37% 0.008 250)", "oklch(48% 0.008 250)", "oklch(59% 0.008 250)", "oklch(70% 0.006 250)", "oklch(83% 0.005 250)", "oklch(95% 0.004 250)"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#14181d",
+        "lightMode": "#ffffff",
+        "tonalRamp": ["oklch(15% 0.009 250)", "oklch(26% 0.009 250)", "oklch(37% 0.009 250)", "oklch(48% 0.009 250)", "oklch(59% 0.008 250)", "oklch(70% 0.007 250)", "oklch(83% 0.005 250)", "oklch(95% 0.004 250)"]
+      },
+      "surface-2": {
+        "role": "neutral",
+        "displayName": "Surface Raised",
+        "canonical": "#1a1f25",
+        "lightMode": "#f7f5f2",
+        "tonalRamp": ["oklch(15% 0.010 250)", "oklch(26% 0.010 250)", "oklch(37% 0.010 250)", "oklch(48% 0.010 250)", "oklch(59% 0.009 250)", "oklch(70% 0.007 250)", "oklch(83% 0.006 250)", "oklch(95% 0.004 250)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#242a31",
+        "lightMode": "#e2ddd6",
+        "tonalRamp": ["oklch(15% 0.010 250)", "oklch(26% 0.011 250)", "oklch(37% 0.011 250)", "oklch(48% 0.011 250)", "oklch(59% 0.010 250)", "oklch(70% 0.008 250)", "oklch(83% 0.006 250)", "oklch(95% 0.004 250)"]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#323a44",
+        "lightMode": "#cec7bd",
+        "tonalRamp": ["oklch(15% 0.012 250)", "oklch(26% 0.014 250)", "oklch(37% 0.015 250)", "oklch(48% 0.015 250)", "oklch(59% 0.013 250)", "oklch(70% 0.010 250)", "oklch(83% 0.007 250)", "oklch(95% 0.004 250)"]
+      },
+      "fg": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#e9ecef",
+        "lightMode": "#1b1d21",
+        "tonalRamp": ["oklch(15% 0.005 250)", "oklch(26% 0.006 250)", "oklch(37% 0.006 250)", "oklch(48% 0.006 250)", "oklch(59% 0.006 250)", "oklch(70% 0.005 250)", "oklch(83% 0.004 250)", "oklch(95% 0.003 250)"]
+      },
+      "fg-mid": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#a8b1bc",
+        "lightMode": "#545b64",
+        "tonalRamp": ["oklch(15% 0.010 250)", "oklch(26% 0.012 250)", "oklch(37% 0.014 250)", "oklch(48% 0.016 250)", "oklch(59% 0.017 250)", "oklch(73% 0.016 250)", "oklch(85% 0.010 250)", "oklch(95% 0.005 250)"]
+      },
+      "fg-dim": {
+        "role": "neutral",
+        "displayName": "Dim Ink",
+        "canonical": "#77818d",
+        "lightMode": "#5a626d",
+        "tonalRamp": ["oklch(15% 0.010 250)", "oklch(26% 0.013 250)", "oklch(37% 0.015 250)", "oklch(48% 0.017 250)", "oklch(58% 0.018 250)", "oklch(70% 0.016 250)", "oklch(83% 0.010 250)", "oklch(95% 0.005 250)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Verdict", "purpose": "The single headline that answers 'is the server fine?'. One per page; grows to 2.125rem at 40rem and 2.5rem at 60rem." },
+      "title": { "displayName": "Fact Value", "purpose": "The six values in the metrics band. Always tabular, always single-line with ellipsis." },
+      "headline": { "displayName": "Section Heading", "purpose": "Ruled section headings. Never exceeds 1rem." },
+      "body": { "displayName": "Body", "purpose": "All reading text, list rows, alerts, dialog copy, button labels (at weight 600). Verdict note capped at 60ch." },
+      "label": { "displayName": "Label", "purpose": "Fact names, sub-lines, timestamps, column headers, colophon." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "The masthead identity word beside the drawn mark. The only uppercase letterspaced text in the system; never a heading device." },
+      "mono": { "displayName": "Machine Text", "purpose": "Grouped error strings and the owner ID — text the server emitted verbatim." },
+      "log": { "displayName": "Log", "purpose": "The live log pane only." }
+    },
+    "shadows": [
+      { "name": "beacon-halo-ok", "value": "0 0 0 4px color-mix(in srgb, #56c68a 20%, transparent)", "purpose": "Spread-only ring around the calm state dot in the verdict line." },
+      { "name": "beacon-halo-warn", "value": "0 0 0 4px color-mix(in srgb, #e3b341 20%, transparent)", "purpose": "Spread-only ring around the caution state dot." },
+      { "name": "beacon-halo-bad", "value": "0 0 0 4px color-mix(in srgb, #f06a6a 22%, transparent)", "purpose": "Spread-only ring around the failure state dot. The only shadows in the system; zero blur, zero offset." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.2, 0.8, 0.2, 1)", "purpose": "The single easing curve: button state transitions (150ms) and gauge fill (450ms)." },
+      { "name": "control-transition", "value": "background 0.15s, border-color 0.15s, color 0.15s", "purpose": "Buttons change fill and border on hover; they never move or lift." },
+      { "name": "gauge-fill", "value": "transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1)", "purpose": "Memory and CPU bars animate by scaleX from the left edge." },
+      { "name": "spin", "value": "0.7s linear infinite", "purpose": "Job spinner; a 13px ring with an ember leading arc." },
+      { "name": "sheen", "value": "1.4s linear infinite", "purpose": "Pre-first-poll skeleton sweep across fact values." },
+      { "name": "reduced-motion", "value": "animation-duration: 0.01ms; transition-duration: 0.01ms", "purpose": "All motion collapses under prefers-reduced-motion: reduce." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "0" },
+      { "name": "wide", "value": "40rem" },
+      { "name": "desk", "value": "60rem" },
+      { "name": "container", "value": "68rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one ember action per view — the safe forward move (Back up now, Log in).",
+      "html": "<button class=\"ds-btn ds-btn-primary\" type=\"button\">Back up now</button>",
+      "css": ".ds-btn { font: 600 0.875rem/1 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; padding: 0.6rem 0.95rem; min-height: 2.5rem; border: 1px solid #323a44; border-radius: 9px; background: #14181d; color: #e9ecef; cursor: pointer; transition: background 0.15s cubic-bezier(0.2,0.8,0.2,1), border-color 0.15s cubic-bezier(0.2,0.8,0.2,1), color 0.15s cubic-bezier(0.2,0.8,0.2,1); } .ds-btn-primary { background: #f2803c; border-color: #f2803c; color: #1a0c04; } .ds-btn-primary:hover:not(:disabled) { background: color-mix(in srgb, #f2803c 88%, #000); border-color: transparent; } .ds-btn-primary:focus-visible { outline: 2px solid #f2803c; outline-offset: 2px; border-radius: 4px; } .ds-btn-primary:active:not(:disabled) { transform: translateY(0.5px); } .ds-btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }"
+    },
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Neutral control for non-destructive actions (Start, Restart).",
+      "html": "<button class=\"ds-btn-default\" type=\"button\">Restart</button>",
+      "css": ".ds-btn-default { font: 600 0.875rem/1 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; padding: 0.6rem 0.95rem; min-height: 2.5rem; border: 1px solid #323a44; border-radius: 9px; background: #14181d; color: #e9ecef; cursor: pointer; transition: background 0.15s cubic-bezier(0.2,0.8,0.2,1), border-color 0.15s cubic-bezier(0.2,0.8,0.2,1); } .ds-btn-default:hover:not(:disabled) { background: #1a1f25; border-color: #77818d; } .ds-btn-default:focus-visible { outline: 2px solid #f2803c; outline-offset: 2px; } .ds-btn-default:active:not(:disabled) { transform: translateY(0.5px); } .ds-btn-default:disabled { opacity: 0.4; cursor: not-allowed; }"
+    },
+    {
+      "name": "Risk Button",
+      "kind": "button",
+      "refersTo": "button-risk",
+      "description": "Destructive action (Stop, and the confirm dialog's OK). Coral text at rest, coral wash on hover.",
+      "html": "<button class=\"ds-btn-risk\" type=\"button\">Stop</button>",
+      "css": ".ds-btn-risk { font: 600 0.875rem/1 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; padding: 0.6rem 0.95rem; min-height: 2.5rem; border: 1px solid color-mix(in srgb, #f06a6a 40%, #323a44); border-radius: 9px; background: #14181d; color: #f06a6a; cursor: pointer; transition: background 0.15s cubic-bezier(0.2,0.8,0.2,1), border-color 0.15s cubic-bezier(0.2,0.8,0.2,1); } .ds-btn-risk:hover:not(:disabled) { background: color-mix(in srgb, #f06a6a 13%, #14181d); border-color: #f06a6a; } .ds-btn-risk:focus-visible { outline: 2px solid #f2803c; outline-offset: 2px; } .ds-btn-risk:active:not(:disabled) { transform: translateY(0.5px); }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Transparent control for the masthead auth toggle and dialog Cancel.",
+      "html": "<button class=\"ds-btn-quiet\" type=\"button\">Log in</button>",
+      "css": ".ds-btn-quiet { font: 600 0.875rem/1 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; padding: 0.6rem 0.95rem; min-height: 2.5rem; border: 1px solid #323a44; border-radius: 9px; background: transparent; color: #a8b1bc; cursor: pointer; transition: color 0.15s cubic-bezier(0.2,0.8,0.2,1); } .ds-btn-quiet:hover:not(:disabled) { color: #e9ecef; } .ds-btn-quiet:focus-visible { outline: 2px solid #f2803c; outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "The log filter; the only text input pattern besides the password field in the login dialog.",
+      "html": "<input class=\"ds-input\" type=\"search\" placeholder=\"Filter\" aria-label=\"Filter the log\">",
+      "css": ".ds-input { font: 0.875rem/1.4 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; padding: 0.45rem 0.6rem; min-height: 2.25rem; border: 1px solid #323a44; border-radius: 8px; background: #14181d; color: #e9ecef; caret-color: #f2803c; } .ds-input::placeholder { color: #77818d; } .ds-input:focus-visible { outline: 2px solid #f2803c; outline-offset: 2px; }"
+    },
+    {
+      "name": "Verdict Block",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "The signature component: state beacon plus one plain-language headline and a muted note. One per page.",
+      "html": "<div class=\"ds-verdict\"><h1 class=\"ds-verdict-line\"><span class=\"ds-beacon\" data-level=\"ok\" aria-hidden=\"true\"></span><span>Kaldyr Vale is up</span></h1><p class=\"ds-verdict-note\">Listed in the in-game server browser. Nobody is playing right now.</p></div>",
+      "css": ".ds-verdict-line { display: flex; align-items: center; gap: 0.55rem; margin: 0; font: 650 1.75rem/1.15 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; letter-spacing: -0.02em; text-wrap: balance; color: #e9ecef; } .ds-beacon { width: 0.5em; height: 0.5em; border-radius: 50%; background: #77818d; flex: none; translate: 0 -0.15em; } .ds-beacon[data-level=\"ok\"] { background: #56c68a; box-shadow: 0 0 0 4px color-mix(in srgb, #56c68a 20%, transparent); } .ds-beacon[data-level=\"warn\"] { background: #e3b341; box-shadow: 0 0 0 4px color-mix(in srgb, #e3b341 20%, transparent); } .ds-beacon[data-level=\"bad\"] { background: #f06a6a; box-shadow: 0 0 0 4px color-mix(in srgb, #f06a6a 22%, transparent); } .ds-verdict-note { margin: 0.4rem 0 0; font: 0.875rem/1.55 ui-sans-serif, system-ui, sans-serif; color: #a8b1bc; max-width: 60ch; }"
+    },
+    {
+      "name": "Fact Band",
+      "kind": "custom",
+      "refersTo": "fact-cell",
+      "description": "The hairline-ruled ledger of six metrics. 2 columns on a phone, 3 at 40rem, 6 at 60rem. Gauges tint at 75% and 90%.",
+      "html": "<dl class=\"ds-facts\"><div class=\"ds-fact\"><dt>Players</dt><dd>2</dd><small>oemna, Undocc</small></div><div class=\"ds-fact\"><dt>Uptime</dt><dd>9 h 12 min</dd><small>since 04:02</small></div><div class=\"ds-fact\"><dt>Memory</dt><dd>7.4 GB</dd><small>of 12 GB</small><div class=\"ds-gauge\"><span style=\"transform: scaleX(0.62)\"></span></div></div></dl>",
+      "css": ".ds-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid #242a31; border-left: 1px solid #242a31; margin: 0; } .ds-fact { border-right: 1px solid #242a31; border-bottom: 1px solid #242a31; padding: 0.7rem 0.85rem 0.75rem; min-width: 0; } .ds-fact dt { font: 0.8125rem/1.55 ui-sans-serif, system-ui, sans-serif; color: #77818d; } .ds-fact dd { margin: 0.1rem 0 0; font: 600 1.375rem/1.2 ui-sans-serif, system-ui, sans-serif; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; color: #e9ecef; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-fact small { display: block; font-size: 0.8125rem; color: #77818d; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-gauge { height: 3px; margin-top: 0.5rem; background: #242a31; border-radius: 2px; overflow: hidden; } .ds-gauge span { display: block; height: 100%; width: 100%; background: #f2803c; transform-origin: left center; transition: transform 0.45s cubic-bezier(0.2,0.8,0.2,1); } @media (min-width: 40rem) { .ds-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); } }"
+    },
+    {
+      "name": "Alert",
+      "kind": "card",
+      "refersTo": "alert-bad",
+      "description": "A problem that deserves space at the top even when the server itself is fine. Wash fill, signal-mixed border, title plus body.",
+      "html": "<div class=\"ds-alert\" data-level=\"bad\"><strong>The game server needs an update</strong><span>Installed build 19284411 is behind Steam's 19310772.</span></div>",
+      "css": ".ds-alert { display: grid; gap: 0.15rem; padding: 0.75rem 0.9rem; border: 1px solid #242a31; border-radius: 12px; background: #14181d; font: 0.875rem/1.55 ui-sans-serif, system-ui, sans-serif; color: #e9ecef; } .ds-alert strong { font-weight: 650; } .ds-alert span { color: #a8b1bc; } .ds-alert[data-level=\"bad\"] { background: color-mix(in srgb, #f06a6a 13%, #14181d); border-color: color-mix(in srgb, #f06a6a 35%, #242a31); } .ds-alert[data-level=\"bad\"] span { color: color-mix(in srgb, #f06a6a 45%, #e9ecef); } .ds-alert[data-level=\"warn\"] { background: color-mix(in srgb, #e3b341 13%, #14181d); border-color: color-mix(in srgb, #e3b341 32%, #242a31); } .ds-alert[data-level=\"warn\"] span { color: color-mix(in srgb, #e3b341 45%, #e9ecef); }"
+    },
+    {
+      "name": "Player Chip",
+      "kind": "chip",
+      "refersTo": "player-chip",
+      "description": "Who is playing right now, with their current session length. Green means online.",
+      "html": "<span class=\"ds-chip\"><span>oemna</span><small>42 min</small></span>",
+      "css": ".ds-chip { display: inline-flex; align-items: baseline; gap: 0.45rem; padding: 0.35rem 0.7rem; border-radius: 999px; background: color-mix(in srgb, #56c68a 12%, #14181d); border: 1px solid color-mix(in srgb, #56c68a 30%, #242a31); font: 600 0.875rem/1.55 ui-sans-serif, system-ui, sans-serif; color: #e9ecef; } .ds-chip small { color: #a8b1bc; font-weight: 400; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Count Tally",
+      "kind": "chip",
+      "refersTo": "tally",
+      "description": "Outline pill beside a section heading. Dim at zero, coral the moment the count is non-zero.",
+      "html": "<h2 class=\"ds-h2\">Errors <span class=\"ds-tally\" data-level=\"bad\">3</span></h2>",
+      "css": ".ds-h2 { display: flex; align-items: center; gap: 0.5rem; margin: 0 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid #242a31; font: 600 1rem/1.55 ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.01em; color: #e9ecef; } .ds-tally { font-size: 0.8125rem; font-weight: 600; font-variant-numeric: tabular-nums; color: #77818d; border: 1px solid #242a31; border-radius: 999px; padding: 0.05rem 0.5rem; } .ds-tally[data-level=\"bad\"] { color: #f06a6a; border-color: color-mix(in srgb, #f06a6a 45%, #242a31); }"
+    },
+    {
+      "name": "Log Pane",
+      "kind": "custom",
+      "refersTo": "log-pane",
+      "description": "The live server log: monospace, dim timestamps, three level colors, capped height with a thin themed scrollbar.",
+      "html": "<pre class=\"ds-log\" tabindex=\"0\" aria-label=\"Server log\"><span class=\"ds-stamp\">04:02:11  </span><span>LogDominion: World save complete</span>\n<span class=\"ds-stamp\">04:03:40  </span><span class=\"ds-lv-player\">Player ADDED: oemna</span>\n<span class=\"ds-stamp\">04:07:02  </span><span class=\"ds-lv-warn\">LogNet: Warning: Heartbeat delayed</span></pre>",
+      "css": ".ds-log { margin: 0; height: min(60vh, 26rem); overflow: auto; padding: 0.75rem 0.9rem; background: #14181d; border: 1px solid #242a31; border-radius: 12px; font: 0.75rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: #e9ecef; white-space: pre-wrap; overflow-wrap: anywhere; scrollbar-color: #323a44 transparent; scrollbar-width: thin; } .ds-log::-webkit-scrollbar { width: 10px; } .ds-log::-webkit-scrollbar-thumb { background: #323a44; border-radius: 99px; border: 3px solid #14181d; } .ds-stamp { color: #77818d; } .ds-lv-error { color: #f06a6a; } .ds-lv-warn { color: #e3b341; } .ds-lv-player { color: #56c68a; }"
+    },
+    {
+      "name": "Confirm Dialog",
+      "kind": "custom",
+      "refersTo": "dialog",
+      "description": "Native <dialog> used for login and for every destructive action; the body says how many players will be disconnected.",
+      "html": "<dialog class=\"ds-dialog\" open><form method=\"dialog\"><h2>Stop the server?</h2><p class=\"ds-dialog-note\">The world is saved first, then the server goes offline until you start it again. 2 players are playing right now and will be disconnected.</p><div class=\"ds-dialog-actions\"><button value=\"cancel\" class=\"ds-dlg-quiet\">Cancel</button><button value=\"ok\" class=\"ds-dlg-risk\">Stop server</button></div></form></dialog>",
+      "css": ".ds-dialog { width: min(24rem, calc(100vw - 2rem)); padding: 1.25rem; border: 1px solid #323a44; border-radius: 12px; background: #14181d; color: #e9ecef; font: 0.875rem/1.55 ui-sans-serif, system-ui, sans-serif; } .ds-dialog::backdrop { background: rgb(0 0 0 / 0.6); } .ds-dialog h2 { margin: 0 0 0.35rem; font-size: 1rem; font-weight: 600; } .ds-dialog-note { margin: 0 0 0.9rem; color: #a8b1bc; font-size: 0.8125rem; } .ds-dialog-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1rem; } .ds-dlg-quiet, .ds-dlg-risk { font: 600 0.875rem/1 ui-sans-serif, system-ui, sans-serif; padding: 0.6rem 0.95rem; min-height: 2.5rem; border-radius: 9px; cursor: pointer; } .ds-dlg-quiet { background: transparent; border: 1px solid #323a44; color: #a8b1bc; } .ds-dlg-quiet:hover { color: #e9ecef; } .ds-dlg-risk { background: #14181d; border: 1px solid color-mix(in srgb, #f06a6a 40%, #323a44); color: #f06a6a; } .ds-dlg-risk:hover { background: color-mix(in srgb, #f06a6a 13%, #14181d); border-color: #f06a6a; }"
+    },
+    {
+      "name": "Identity Lockup",
+      "kind": "nav",
+      "refersTo": "wordmark",
+      "description": "The masthead: the drawn scale-shingle mark and the wordmark. The only uppercase letterspaced text in the system.",
+      "html": "<div class=\"ds-ident\"><span class=\"ds-ident-mark\" aria-hidden=\"true\"></span><span class=\"ds-ident-text\">Dragonwilds</span></div>",
+      "css": ".ds-ident { display: inline-flex; align-items: center; gap: 0.55rem; } .ds-ident-mark { width: 22px; height: 22px; background: currentColor; color: #f2803c; clip-path: polygon(50% 0%, 100% 28%, 82% 100%, 18% 100%, 0% 28%); } .ds-ident-text { font: 600 0.8125rem/1.55 ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; color: #a8b1bc; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Watchfire Board",
+    "overview": "A dark board hung on a wall in a room where nothing usually happens. It is read from the doorway, at arm's length, in one glance, and most of the time the correct response to it is to walk away. The board is ink and hairlines; the only warm thing on it is a single ember — the drawn scale-shingle mark, the primary action, and the live data bar. When the server is fine, the board is monochrome plus one small green dot. When something breaks, color and position arrive together at the top of the page and there is no mistaking it.\n\nDensity is high and ornament is zero. There are no cards floating over a background, no gradients, no illustration, no photography. Six facts sit in a hairline-ruled grid like a ledger; players, activity, backups, and errors are plain rules-between-rows lists; the log is a raw monospace pane. Everything that can be a line instead of a box is a line. The whole surface is built from three surface tones and two line weights, which is what lets a single 4px halo around one dot read as an event.\n\nThe type is a single system sans at a compressed ramp — 0.8125rem to 1.75rem covers every role except the one headline that grows to 2.5rem on a desktop width — with a monospace face reserved strictly for machine text. Numbers are tabular everywhere, because the page repaints every five seconds and digits must not jitter. Respecting the viewer's light/dark preference is structural, not a toggle: the same tokens flip to warm paper (#f4f2ef) and darkened state hues at the OS level.",
+    "keyCharacteristics": [
+      "Dark-first, with a paper-warm light theme driven by prefers-color-scheme",
+      "One ember accent; all other color is state",
+      "Flat: 1px hairlines and three surface tones, no drop shadows",
+      "Ledger density — ruled grids and rules-between-rows, not cards",
+      "Tabular numerals on every polled value",
+      "A drawn mark and drawn indicators; no glyph icons, no emoji",
+      "Phone-first single column, widening 2 → 3 → 6 columns"
+    ],
+    "rules": [
+      { "name": "The State-Only Color Rule", "body": "Hue means something or it is not there. Green, amber and coral are reserved for the health of the server; Ember is reserved for the mark, the primary action, live data and focus. Nothing on this board is colored to look nice.", "section": "colors" },
+      { "name": "The Wash-Not-Fill Rule", "body": "State enters a container as a 12–13% wash of the signal into the surface, with the border mixed 30–45% toward the signal — never as a saturated fill behind reading text. The only saturated state surface allowed is the beacon dot itself.", "section": "colors" },
+      { "name": "The Words-With-The-Color Rule", "body": "Every colored state is also written in words within the same element. The beacon never carries meaning alone; the verdict line beside it always names the state, and a screen-reader status line repeats label, line and note.", "section": "colors" },
+      { "name": "The One Headline Rule", "body": "Exactly one element on the page gets display size: the verdict. Section headings never exceed 1rem. Anything that wants to be bigger is competing with the answer the owner came for.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Any value that can change between five-second polls is set in font-variant-numeric: tabular-nums — fact values, playtimes, visit counts, file sizes, tallies, timestamps. Digits may not shift the layout on refresh.", "section": "typography" },
+      { "name": "The Machine-Voice Rule", "body": "Monospace is evidence, not emphasis. It is used only for text the server produced verbatim (log lines, error strings, the owner ID) and never for headings, labels or UI copy.", "section": "typography" },
+      { "name": "The Ruled-Grid Rule", "body": "The fact band is a grid of cells sharing 1px hairlines — top and left borders on the container, right and bottom on each cell — with no gap and no background of its own. Facts are cells in a ledger, not a row of cards.", "section": "layout" },
+      { "name": "The Glance Budget Rule", "body": "Everything needed to answer 'is the server fine?' — beacon, verdict, note, alerts, and the six facts — lands above the controls, in one phone screen. Anything that requires reading rather than glancing goes below.", "section": "layout" },
+      { "name": "The No-Shadow Rule", "body": "Surfaces never cast. If an element needs to separate from its neighbor, use a hairline, a surface tone, or space — in that order. The beacon halo is the only box-shadow on the surface and it is a spread ring with zero blur and zero offset.", "section": "elevation" },
+      { "name": "The Drawn-Mark Rule", "body": "Every symbol on this surface is drawn in CSS or SVG — the shingle mark, the beacon, the roster dot, the gauge bar, the spinner. No emoji, no icon font, no icon package, no raster images.", "section": "shapes" },
+      { "name": "The Radius-By-Role Rule", "body": "Radius encodes what a thing is: 12px content containers, 9px controls, 8px fields, pill for counts and names, circle for live state. Don't pick a radius for looks; pick it from the role.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do answer the question in the first screen: beacon, plain-language verdict, note, alerts, six facts — in that order, above the controls.",
+      "Do write the state in words next to any color that carries it, and mirror the verdict into a visually hidden role=\"status\" line.",
+      "Do use font-variant-numeric: tabular-nums on every value that repolls.",
+      "Do separate with hairlines (1px line), surface tone, or space — in that order — before reaching for any other device.",
+      "Do give interactive elements the stronger hairline (line-strong) and static panes the lighter one.",
+      "Do keep exactly one primary (ember) button per view, on the safest forward action.",
+      "Do put destructive actions in the risk style and confirm them in a dialog that says how many players will be disconnected.",
+      "Do keep tap targets at 2.5rem minimum and let the whole layout work in one phone-width column.",
+      "Do define new colors as color-mix() against the existing tokens so they follow the light-mode flip automatically.",
+      "Do honor prefers-color-scheme and prefers-reduced-motion in anything new."
+    ],
+    "donts": [
+      "Don't add a box-shadow other than the beacon's zero-blur spread ring. Nothing on this board floats.",
+      "Don't color anything decoratively. Green, amber and coral mean server state; ember means accent, action or live data.",
+      "Don't fill a container with a saturated state color behind reading text — use the 12–13% wash with a signal-mixed border.",
+      "Don't give any element display size except the verdict, and don't let a section heading exceed 1rem.",
+      "Don't use emoji, an icon font, an icon package, or a raster image. Symbols are drawn in CSS or SVG.",
+      "Don't reuse the uppercase letterspaced treatment anywhere but the masthead wordmark — it is identity, not a heading device, and this surface has no eyebrows or kickers above its headings.",
+      "Don't wrap the fact band's cells in individual cards, gaps, or backgrounds; they share hairlines.",
+      "Don't use monospace for anything the server did not emit verbatim.",
+      "Don't add a webfont, a CSS framework, an icon library, or any npm dependency — the page is hand-written HTML, CSS and JS served from the container, and any visual addition must survive that.",
+      "Don't remove or restyle the focus ring; it is a 2px ember outline at 2px offset, page-wide."
+    ]
+  }
+}

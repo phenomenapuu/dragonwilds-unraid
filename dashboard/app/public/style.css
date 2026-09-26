@@ -33,8 +33,6 @@
   --step-2: 1rem;        /* section headings */
   --step-3: 1.375rem;    /* facts */
   --step-4: 1.75rem;     /* verdict */
-
-  --gap: 1rem;
   --radius: 12px;
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -48,7 +46,7 @@
     --line: #e2ddd6;
     --line-strong: #cec7bd;
     --fg: #1b1d21;
-    --fg-mid: #545b64;
+    --fg-mid: #454c56;
     --fg-dim: #5a626d;
     --ember: #a8460f;
     --ember-ink: #ffffff;
