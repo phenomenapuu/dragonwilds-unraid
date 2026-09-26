@@ -20,3 +20,8 @@ node_modules/
 # Impeccable per-developer overrides
 .impeccable/config.local.json
 .impeccable/cache/
+
+# Impeccable design-tooling artifacts (kept locally, not shipped)
+/.impeccable/
+/PRODUCT.md
+/DESIGN.md
