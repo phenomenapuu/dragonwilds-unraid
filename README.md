@@ -38,7 +38,7 @@ On the Unraid server (Terminal, or SSH):
 
 ```bash
 mkdir -p /mnt/user/appdata/build && cd /mnt/user/appdata/build
-git clone https://github.com/USER/dragonwilds-unraid.git
+git clone https://github.com/phenomenapuu/dragonwilds-unraid.git
 cd dragonwilds-unraid
 cp config.sh config.local.sh   # edit paths, ports, limits, LAN IP
 ./server/install-server.sh     # builds the image, starts the server (~5.5 GB download)
