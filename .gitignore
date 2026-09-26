@@ -1,0 +1,18 @@
+# Local settings (paths, LAN IP, limits)
+config.local.sh
+
+# Never commit secrets or game data
+*.token
+control.token
+INITIAL_PASSWORD.txt
+auth.json
+players.json
+*.tar.gz
+*.acf
+DedicatedServer.ini
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+node_modules/
