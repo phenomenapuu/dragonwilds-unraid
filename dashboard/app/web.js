@@ -343,6 +343,7 @@ const STATIC = {
   '/': ['index.html', 'text/html; charset=utf-8'],
   '/app.js': ['app.js', 'text/javascript; charset=utf-8'],
   '/style.css': ['style.css', 'text/css; charset=utf-8'],
+  '/icon.svg': ['icon.svg', 'image/svg+xml'],
 };
 const staticFiles = Object.fromEntries(
   Object.entries(STATIC).map(([route, [file, type]]) => [route, { body: fs.readFileSync(new URL(`./public/${file}`, import.meta.url)), type }])

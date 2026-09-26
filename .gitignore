@@ -16,3 +16,7 @@ DedicatedServer.ini
 Thumbs.db
 *.swp
 node_modules/
+
+# Impeccable per-developer overrides
+.impeccable/config.local.json
+.impeccable/cache/
